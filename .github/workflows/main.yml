@@ -38,5 +38,5 @@ jobs:
       run: npm install -g surge
       
     - name: deploying surge 
-      run: surge ./build http//bootcamp_session2_ahmad.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./bootcamp-react-app/build http//bootcamp_session2_ahmad.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
      
